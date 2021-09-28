@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixed-width{
+    max-width: 1240px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+/* header menu css start */
+.header{
+    background-color: #22c3a3;
+    padding: 22px 0;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left h2{
+    color: #ffffff;
+    font-weight: 500;
+}
+.header-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    color: #d8d8d8;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 15px;
+}
+/* banner css start */
+.banner{
+    background-image: url(../img/header-bg01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 228px 0;
+    text-align: center;
+    color: #fff;
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner h3{
+    font-size: 20px;
+    color: #cef2eb;
+    margin: 20px 0 45px 0;
+}
+.banner button{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: #0bbf9a;
+    border: 2px solid #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+/* service section css start */
+.service{
+    padding: 80px 0;
+    border-bottom: 2px solid #0dbf9b;
+}
+.ser-heading{
+    text-align: center;
+}
+.ser-heading h1{
+    color: #555;
+}
+.ser-heading p{
+    color: #777;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ser-item{
+    
+}
+.item1{
+    float: left;
+    width: 18%;
+    margin-right: 9%;
+}
+.item1 span{
+    color: #0dba97;
+    font-size: 40px;
+}
+.item1 h3{
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.item1 p{
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* item2 start */
+.item2{
+    float: left;
+    width: 18%;
+    margin-right: 9%;
+}
+.item2 span{
+    color: #0dba97;
+    font-size: 40px;
+}
+.item2 h3{
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.item2 p{
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* item3 start */
+.item3{
+    float: left;
+    width: 18%;
+    margin-right: 9%;
+}
+.item3 span{
+    color: #0dba97;
+    font-size: 40px;
+}
+.item3 h3{
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.item3 p{
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* item4 start */
+.item4{
+    float: left;
+    width: 18%;
+}
+.item4 span{
+    color: #0dba97;
+    font-size: 40px;
+}
+.item4 h3{
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.item4 p{
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* about css start */
+.about{
+    padding: 70px 0;
+}
+.ab-heading{
+    margin-bottom: 50px;
+}
+.ab-heading h1{
+    color: #555;
+    margin-bottom: 25px;
+}
+.ab-heading p{
+    color: #777;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.img-ab{
+    float: left;
+    width: 45%;
+    margin-right: 3%;
+}
+.img-ab img{
+    width: 547px;
+}
+.ab-content{
+    float: right;
+    width: 52%;
+}
+.item5{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+.item5 h3{
+    color: #666666;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.item5 p{
+    color: #777;
+    font-size: 15px;
+}
+.item6{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+.item6 h3{
+    color: #666666;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.item6 p{
+    color: #777;
+    font-size: 15px;
+}
+.item7{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+.item7 h3{
+    color: #666666;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.item7 p{
+    color: #777;
+    font-size: 15px;
+}
+/* contact css start */
+.contact{
+    background-color: #f6f6f6;
+    padding: 70px 0;
+}
+.contact-heading h1{
+    color: #555;
+    margin-bottom: 30px;
+}
+.contact-heading p{
+    color: #777;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-item{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contact-item p{
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+}
+.item8{
+    float: left;
+    width: 15%;
+    margin-left: 14%;
+    margin-right: 15%;
+}
+.item8, .item9, .item10 span{
+    color: #0dbf9b;
+}
+.item9{
+    float: left;
+    width: 15%;
+    margin-right: 15%;
+}
+.item10{
+    float: left;
+    width: 15%;    
+}
+.item10 p{
+    font-size: 15px;
+}
+.mt{
+    padding-top: 15px;
+    font-size: 15px;
+}
+/* footer start */
+.footer-top{
+    background-color: #0dbf9b;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-top ul{
+    list-style: none;
+}
+.footer-top ul li{
+    display: inline-block;
+}
+.footer-top ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+/*main footer css start */
+.footer{
+    background-color: #222222;
+    text-align: center;
+    padding: 17px 0;
+}
+.footer p{
+    color: #555555;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}

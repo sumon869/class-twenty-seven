@@ -1,0 +1,151 @@
+@media(max-width:1240px){
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+    }
+    .header {
+        padding-left: 12px;
+    }
+}
+@media(max-width:1176px){
+    .img-ab img {
+        width: 100%;
+    }
+}
+/* main style */
+.header span.mobile-bar {
+    font-size: 40px;
+    color: rgb(23, 230, 230);
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    position: relative;
+    pointer-events: none;
+}
+.checkbar{
+    opacity: 0;
+    display: none;
+}
+.checkbar:checked ~ .header-right ul{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+@media(max-width:768px){
+    .header{
+        padding: 11px 0 11px 0px;
+    }
+    .header-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    .checkbar {
+        opacity: 1;
+        display: block;
+        position: absolute;
+        left: 13px;
+        top: 68px;
+        cursor: pointer;
+        height: 33px;
+        width: 35px;
+        opacity: 0;
+    }
+    .header span.mobile-bar {
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-right ul li {
+        display: block;
+        width: 200px;
+        padding: 8px 0;
+    }
+    .header-right ul li a {
+        padding: 0px 6px;
+        font-size: 13px;
+    }
+    .banner {
+        padding: 80px 0;
+    }
+    .banner h1 {
+        font-size: 29px;
+    }
+    .banner h3 {
+        font-size: 16px;
+    }
+    .banner button {
+        font-size: 13px;
+        padding: 11px 15px;
+    }
+    .service {
+        padding: 44px 0;
+    }
+    .ser-heading p {
+        margin-bottom: 47px;
+    }
+    .img-ab img {
+        max-width: 100%;
+    }
+    .item1 {
+        width: 100%;
+    }
+    .item2 {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .item3 {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .item4 {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .img-ab {
+        width: 100%;
+    }
+    .ab-content {
+        width: 100%;
+        text-align: center;
+    }
+    .item5 {
+        margin-top: 28px;
+    }
+    .item6 {
+        margin-top: 28px;
+    }
+    .item7 {
+        margin-top: 28px;
+    }
+    .item8 {
+        margin-left: 0;
+        width: 100%;
+    }
+    .item9 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .item10 {
+        margin-top: 29px;
+        width: 100%;
+    }
+    .contact {
+        padding: 50px 0 70px 0;
+    }
+    .contact-item {
+        padding-top: 32px;
+        padding-bottom: 210px;
+    }
+}
+
+
